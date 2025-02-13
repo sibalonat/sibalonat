@@ -8,7 +8,7 @@ I'm a Fullstack Developer at **KeySoft** with extensive experience in building d
 
 ## Skills & Technologies
 
-- [laravel],
+- [laravel](), [vue](), [react](), [django](), [php](), [mysql](), [d3](), [threejs](), [mongodb](), [rust](), [tauri](), [css](https://css3.com/), [flutter](), [aws]
 - [vue],
 - [react],
 - [django],
