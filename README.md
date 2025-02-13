@@ -15,7 +15,7 @@ I'm a Fullstack Developer at **KeySoft** with extensive experience in building d
 
 🌟 **Public Repos:** 72  
 <!-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sibalonat&show_icons=true&theme=radical&layout=compact) -->
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sibalonat&theme=radical)
+![GitHub Streak](https://github-readme-streak-stats.vercel.com/?user=sibalonat&theme=radical)
 
 ## Recent Activity
 
