@@ -8,22 +8,7 @@ I'm a Fullstack Developer at **KeySoft** with extensive experience in building d
 
 ## Skills & Technologies
 
-- [laravel](), [vue](), [react](), [django](), [php](), [mysql](), [d3](), [threejs](), [mongodb](), [rust](), [tauri](), [css](https://css3.com/), [flutter](), [aws]
-- [vue],
-- [react],
-- [django],
-- [php],
-- [mysql],
-- [d3],
-- [threejs],
-- [mongodb],
-- [rust],
-- [tauri],
-- [tailwind],
-- [ae],
-- [css],
-- [flutter],
-- [aws]
+- [laravel](https://laravel.com/), [vue](https://vuejs.org/), [react](https://react.dev/), [django](https://www.djangoproject.com/), [php](https://www.php.net/), [mysql](https://www.mysql.com/), [d3](https://d3js.org/), [threejs](https://threejs.org/), [mongodb](https://www.mongodb.com/?msockid=18f41f88c021681c2a650aaac1546995), [rust](https://www.rust-lang.org/), [tauri](https://tauri.app/), [css](https://css3.com/), [flutter](https://flutter.dev/), [aws]
 
 ## GitHub Stats
 
