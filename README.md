@@ -30,9 +30,6 @@ laravel,vue,react,django,php,mysql,d3,threejs,mongodb,rust,tauri,tailwind,ae,css
 - Contributed to [inertia-table](https://github.com/sibalonat/inertia-table) on December 30, 2024  
 - Collaborated on [products-project](https://github.com/sibalonat/products-project) on December 22, 2024
 
-## Connect with Me
-
-{}
 
 ## Certifications
 
