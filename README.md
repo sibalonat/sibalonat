@@ -8,14 +8,22 @@ I'm a Fullstack Developer at **KeySoft** with extensive experience in building d
 
 ## Skills & Technologies
 
-laravel,vue,react,django,php,mysql,d3,threejs,mongodb,rust,tauri,tailwind,ae,css,flutter,aws
-
-## Top Projects
-
-- [newsagency](https://github.com/sibalonat/newsagency) - A news aggregation web application. **Stars:** 0 | **Language:** HTML | **Forks:** 0 | **Open Issues:** 0
-- [sassdocument](https://github.com/sibalonat/sassdocument) - Documenting the usage of Sass in web projects. **Stars:** 0 | **Language:** Vue | **Forks:** 0 | **Open Issues:** 0
-- [resting](https://github.com/sibalonat/resting) - A simple RESTful API built with Rust. **Stars:** 0 | **Language:** Rust | **Forks:** 0 | **Open Issues:** 0
-- [Dokumentat](https://github.com/sibalonat/Dokumentat) - A package for integrating OnlyOffice with Laravel. **Stars:** 1 | **Language:** PHP | **Forks:** 0 | **Open Issues:** 1
+- [laravel],
+- [vue],
+- [react],
+- [django],
+- [php],
+- [mysql],
+- [d3],
+- [threejs],
+- [mongodb],
+- [rust],
+- [tauri],
+- [tailwind],
+- [ae],
+- [css],
+- [flutter],
+- [aws]
 
 ## GitHub Stats
 
