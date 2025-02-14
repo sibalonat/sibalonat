@@ -43,7 +43,7 @@ for event in events:
         else:
             event_text = f'- {event_type} {repo_name} on {event_date}'
         
-        if event['repo']['private']:
+        if event['repo'].get('private'):
             event_text = event_text.replace(f'[{repo_name}](https://github.com/{repo_name})', repo_name)
         
         recent_activity.append(event_text)
