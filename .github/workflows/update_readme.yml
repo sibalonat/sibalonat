@@ -36,8 +36,8 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git stash
-          git pull --rebase
-          git stash pop
+          git pull --rebase || git rebase --abort
+          git stash pop || true
           git add README.md
           git diff-index --quiet HEAD || git commit -m 'Update README with random image'
           git push
