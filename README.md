@@ -1,4 +1,4 @@
-![Random Image](assets/1.png)
+![Random Image](assets/4.png)
 ## Hi there! 👋
 
 I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Albania. I love blending creativity with technology and am a big fan of Constructivism and Bauhaus.
@@ -17,6 +17,12 @@ I'm a Fullstack Developer at **KeySoft** with extensive experience in building d
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sibalonat&show_icons=true&theme=radical&hide=stars&count_private=true)
 
 ## Recent Activity
+- Pushed to sibalonat/sibalonat (6 times) on February 14, 2025
+- Pushed to sibalonat/sibalonat (9 times) on February 13, 2025
+- Created sibalonat/About on February 13, 2025
+- Pushed to sibalonat/sassdocument (10 times) on January 25, 2025
+- Pushed to sibalonat/sassdocument (12 times) on January 24, 2025
+- Pushed to sibalonat/sassdocument (16 times) on January 22, 2025
 
 
 ## Certifications
