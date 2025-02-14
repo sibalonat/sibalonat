@@ -7,6 +7,7 @@ from datetime import datetime
 assets_folder = 'assets'
 readme_file = 'README.md'
 username = 'sibalonat'  # Replace with your GitHub username
+token = os.getenv('GITHUB_TOKEN')  # Ensure you have set the GITHUB_TOKEN environment variable
 
 # Get a list of all files in the assets folder
 images = [f for f in os.listdir(assets_folder) if os.path.isfile(os.path.join(assets_folder, f))]
@@ -15,17 +16,33 @@ images = [f for f in os.listdir(assets_folder) if os.path.isfile(os.path.join(as
 random_image = random.choice(images)
 
 # Fetch recent activity from GitHub API
-response = requests.get(f'https://api.github.com/users/{username}/events')
+headers = {'Authorization': f'token {token}'}
+response = requests.get(f'https://api.github.com/users/{username}/events', headers=headers)
 events = response.json()
 
-# Filter push and create events
+# Filter push and create events and count multiple pushes to the same project
 recent_activity = []
+event_counter = {}
 for event in events:
     if event['type'] in ['PushEvent', 'CreateEvent']:
         repo_name = event['repo']['name']
         event_type = 'Pushed to' if event['type'] == 'PushEvent' else 'Created'
         event_date = datetime.strptime(event['created_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%B %d, %Y')
-        recent_activity.append(f'- {event_type} [{repo_name}](https://github.com/{repo_name}) on {event_date}')
+        
+        if event['type'] == 'PushEvent':
+            if repo_name in event_counter:
+                event_counter[repo_name] += 1
+            else:
+                event_counter[repo_name] = 1
+            event_text = f'- {event_type} {repo_name} ({event_counter[repo_name]} times) on {event_date}'
+        else:
+            event_text = f'- {event_type} {repo_name} on {event_date}'
+        
+        if event['repo']['private']:
+            event_text = event_text.replace(f'[{repo_name}](https://github.com/{repo_name})', repo_name)
+        
+        recent_activity.append(event_text)
+        
     if len(recent_activity) >= 5:
         break
 
