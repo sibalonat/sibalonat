@@ -17,12 +17,11 @@ I'm a Fullstack Developer at **KeySoft** with extensive experience in building d
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sibalonat&show_icons=true&theme=radical&hide=stars&count_private=true)
 
 ## Recent Activity
-- Pushed to [sibalonat/sibalonat](https://github.com/sibalonat/sibalonat) on February 14, 2025
-- Pushed to [sassdocument](https://github.com/sibalonat/sassdocument) on January 25, 2025  
-- Created [newsagency](https://github.com/sibalonat/newsagency) on January 26, 2025  
-- Updated [Dokumentat](https://github.com/sibalonat/Dokumentat) on January 12, 2024  
-- Contributed to [inertia-table](https://github.com/sibalonat/inertia-table) on December 30, 2024  
-- Collaborated on [products-project](https://github.com/sibalonat/products-project) on December 22, 2024
+- Pushed to sibalonat/sibalonat (1 times) on February 14, 2025
+- Pushed to sibalonat/sibalonat (2 times) on February 14, 2025
+- Pushed to sibalonat/sibalonat (3 times) on February 14, 2025
+- Pushed to sibalonat/sibalonat (4 times) on February 14, 2025
+- Pushed to sibalonat/sibalonat (5 times) on February 14, 2025
 
 
 ## Certifications
