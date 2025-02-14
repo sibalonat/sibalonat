@@ -26,6 +26,8 @@ jobs:
         working-directory: ${{ github.workspace }}
 
       - name: Run update script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python update_readme.py
         working-directory: ${{ github.workspace }}
 
