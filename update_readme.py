@@ -46,9 +46,14 @@ for event in events:
         if event['repo'].get('private'):
             event_text = event_text.replace(f'[{repo_name}](https://github.com/{repo_name})', repo_name)
         
-        recent_activity.append(event_text)
+        # Check if the event already exists in recent_activity
+        existing_event = next((activity for activity in recent_activity if repo_name in activity and event_date in activity), None)
+        if existing_event:
+            recent_activity[recent_activity.index(existing_event)] = event_text
+        else:
+            recent_activity.append(event_text)
         
-    if len(recent_activity) >= 5:
+    if len(recent_activity) >= 20:
         break
 
 # Read the current README.md content
@@ -63,7 +68,7 @@ for i, line in enumerate(readme_content):
         recent_activity_start = i + 1
         while readme_content[recent_activity_start].startswith('- '):
             readme_content.pop(recent_activity_start)
-        for activity in recent_activity:
+        for activity in recent_activity[:20]:  # Limit to 20 rows
             readme_content.insert(recent_activity_start, activity + '\n')
             recent_activity_start += 1
         break
