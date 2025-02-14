@@ -18,6 +18,11 @@ random_image = random.choice(images)
 # Fetch recent activity from GitHub API
 headers = {'Authorization': f'token {token}'}
 response = requests.get(f'https://api.github.com/users/{username}/events', headers=headers)
+
+# Check if the request was successful
+if response.status_code != 200:
+    raise Exception(f"Failed to fetch events: {response.status_code} {response.text}")
+
 events = response.json()
 
 # Filter push and create events and count multiple pushes to the same project
