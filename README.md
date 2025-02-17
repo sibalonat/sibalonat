@@ -17,14 +17,7 @@ I'm a Fullstack Developer at **KeySoft** with extensive experience in building d
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sibalonat&show_icons=true&theme=radical&hide=stars&count_private=true)
 
 ## Recent Activity
-- Pushed to sibalonat/docbuilder (1 times) on February 16, 2025
-- Pushed to sibalonat/docbuilder (2 times) on February 14, 2025
-- Pushed to sibalonat/docbuilder (3 times) on February 12, 2025
-- Pushed to sibalonat/docbuilder (4 times) on February 11, 2025
-- Pushed to sibalonat/docbuilder (9 times) on February 10, 2025
-- Pushed to sibalonat/docbuilder (24 times) on February 09, 2025
-- Pushed to sibalonat/docbuilder (29 times) on February 08, 2025
-- Pushed to sibalonat/docbuilder (30 times) on February 07, 2025
+
 
 
 ## Certifications
