@@ -8,7 +8,6 @@ on:
 permissions:
   contents: write
   issues: read
-  metadata: read
   pull-requests: read
   repository-projects: read
   security-events: read
