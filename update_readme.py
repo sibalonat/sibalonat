@@ -22,7 +22,10 @@ repos_response = requests.get(repos_url, headers=headers)
 
 # Check if the request was successful
 if repos_response.status_code != 200:
-    raise Exception(f"Failed to fetch repositories: {repos_response.status_code} {repos_response.text}")
+    if repos_response.status_code == 403:
+        raise Exception(f"Failed to fetch repositories: {repos_response.status_code} {repos_response.json().get('message')}")
+    else:
+        raise Exception(f"Failed to fetch repositories: {repos_response.status_code} {repos_response.text}")
 
 repos = repos_response.json()
 
@@ -34,7 +37,10 @@ for repo in repos:
     
     # Check if the request was successful
     if events_response.status_code != 200:
-        raise Exception(f"Failed to fetch events for {repo['name']}: {events_response.status_code} {events_response.text}")
+        if events_response.status_code == 403:
+            raise Exception(f"Failed to fetch events for {repo['name']}: {events_response.status_code} {events_response.json().get('message')}")
+        else:
+            raise Exception(f"Failed to fetch events for {repo['name']}: {events_response.status_code} {events_response.text}")
     
     repo_events = events_response.json()
     events.extend(repo_events)
@@ -58,7 +64,7 @@ for event in events:
             event_text = f'- {event_type} {repo_name} on {event_date}'
         
         if event['repo'].get('private'):
-            event_text = event_text.replace(f'[{repo_name}](https://github.com/{repo_name})', repo_name)
+            event_text = event_text.replace(f'{repo_name}', repo_name)
         
         # Check if the event already exists in recent_activity
         existing_event = next((activity for activity in recent_activity if repo_name in activity and event_date in activity), None)
@@ -77,7 +83,7 @@ with open(readme_file, 'r') as file:
 # Update the image URL and recent activity in the README.md content
 for i, line in enumerate(readme_content):
     if line.startswith('![Random Image]'):
-        readme_content[i] = f'![Random Image]({assets_folder}/{random_image})\n'
+        readme_content[i] = f'!Random Image\n'
     if line.startswith('## Recent Activity'):
         recent_activity_start = i + 1
         while readme_content[recent_activity_start].startswith('- '):
