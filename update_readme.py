@@ -15,15 +15,29 @@ images = [f for f in os.listdir(assets_folder) if os.path.isfile(os.path.join(as
 # Select a random image
 random_image = random.choice(images)
 
-# Fetch recent activity from GitHub API
+# Fetch all repositories from GitHub API
 headers = {'Authorization': f'token {token}'}
-response = requests.get(f'https://api.github.com/users/{username}/events', headers=headers)
+repos_url = "https://api.github.com/user/repos?visibility=all"
+repos_response = requests.get(repos_url, headers=headers)
 
 # Check if the request was successful
-if response.status_code != 200:
-    raise Exception(f"Failed to fetch events: {response.status_code} {response.text}")
+if repos_response.status_code != 200:
+    raise Exception(f"Failed to fetch repositories: {repos_response.status_code} {repos_response.text}")
 
-events = response.json()
+repos = repos_response.json()
+
+# Fetch events for each repository
+events = []
+for repo in repos:
+    events_url = f"https://api.github.com/repos/{repo['owner']['login']}/{repo['name']}/events"
+    events_response = requests.get(events_url, headers=headers)
+    
+    # Check if the request was successful
+    if events_response.status_code != 200:
+        raise Exception(f"Failed to fetch events for {repo['name']}: {events_response.status_code} {events_response.text}")
+    
+    repo_events = events_response.json()
+    events.extend(repo_events)
 
 # Filter push and create events and count multiple pushes to the same project
 recent_activity = []
