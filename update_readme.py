@@ -26,6 +26,10 @@ if repos_response.status_code != 200:
 
 repos = repos_response.json()
 
+# Count public and private repositories
+public_repos_count = sum(1 for repo in repos if not repo['private'])
+private_repos_count = sum(1 for repo in repos if repo['private'])
+
 # Fetch events for each repository
 events = []
 for repo in repos:
@@ -74,10 +78,14 @@ for event in events:
 with open(readme_file, 'r') as file:
     readme_content = file.readlines()
 
-# Update the image URL and recent activity in the README.md content
+# Update the image URL, public and private repo counts, and recent activity in the README.md content
 for i, line in enumerate(readme_content):
     if line.startswith('![Random Image]'):
         readme_content[i] = f'![Random Image]({assets_folder}/{random_image})\n'
+    if line.startswith('🌟 **Public Repos:**'):
+        readme_content[i] = f'🌟 **Public Repos:** {public_repos_count}\n'
+    if line.startswith('🔒 **Private Repos:**'):
+        readme_content[i] = f'🔒 **Private Repos:** {private_repos_count}\n'
     if line.startswith('## Recent Activity'):
         recent_activity_start = i + 1
         while readme_content[recent_activity_start].startswith('- '):
