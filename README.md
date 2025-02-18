@@ -11,7 +11,6 @@ I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Al
 
 🌟 **Public Repos:** 23
 🌟 **Private Repos:** 72  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sibalonat&show_icons=true&theme=radical&hide=stars&count_private=true)
 
 ## Recent Activity
 - Pushed to sibalonat/docbuilder (1 times) on February 16, 2025
