@@ -43,6 +43,9 @@ for repo in repos:
     repo_events = events_response.json()
     events.extend(repo_events)
 
+# Sort events by creation date in descending order
+events.sort(key=lambda event: event['created_at'], reverse=True)
+
 # Filter push and create events and count multiple pushes to the same project
 recent_activity = []
 event_counter = {}
