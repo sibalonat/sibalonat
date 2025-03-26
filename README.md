@@ -5,7 +5,7 @@ I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Al
 
 ## Skills & Technologies
 
-[Laravel](https://laravel.com/), [Vue](https://vuejs.org/), [React](https://react.dev/), [Django](https://www.djangoproject.com/), [PHP](https://www.php.net/), [MySQL](https://www.mysql.com/), [D3](https://d3js.org/), [Threejs](https://threejs.org/), [MongoDB](https://www.mongodb.com/?msockid=18f41f88c021681c2a650aaac1546995), [Rust](https://www.rust-lang.org/), [Tauri](https://tauri.app/), [CSS](https://css3.com/), [Flutter](https://flutter.dev/)
+[Laravel](https://laravel.com/), [Vue](https://vuejs.org/), [React](https://react.dev/), [Django](https://www.djangoproject.com/), [PHP](https://www.php.net/), [MySQL](https://www.mysql.com/), [D3](https://d3js.org/), [Threejs](https://threejs.org/), [MongoDB](https://www.mongodb.com/?msockid=18f41f88c021681c2a650aaac1546995), [Rust](https://www.rust-lang.org/), [Tauri](https://tauri.app/), [CSS](https://css3.com/), [Flutter](https://flutter.dev/), [Quasar](https://quasar.dev/)
 
 ## GitHub Stats
 
