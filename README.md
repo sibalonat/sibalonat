@@ -13,8 +13,8 @@ I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Al
 🌟 **Private Repos:** 72  
 
 ## Recent Activity
-- Pushed to sibalonat/arpya (24 times) on May 02, 2025
-- Pushed to sibalonat/arpya (30 times) on May 01, 2025
+- Pushed to sibalonat/arpya (7 times) on May 03, 2025
+- Pushed to sibalonat/arpya (30 times) on May 02, 2025
 - Pushed to sibalonat/docbuilder (1 times) on April 21, 2025
 - Pushed to sibalonat/docbuilder (2 times) on April 20, 2025
 
