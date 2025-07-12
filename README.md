@@ -1,4 +1,4 @@
-![Random Image](assets/4.png)
+![Random Image](assets/1.png)
 ## Hi there! 👋
 
 I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Albania. I love blending creativity with technology and am a big fan of Constructivism and Bauhaus.
@@ -27,7 +27,6 @@ I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Al
 - Pushed to sibalonat/arpya (11 times) on June 19, 2025
 - Pushed to sibalonat/arpya (14 times) on June 17, 2025
 - Pushed to sibalonat/arpya (18 times) on June 16, 2025
-- Pushed to sibalonat/arpya (20 times) on June 10, 2025
 
 
 
