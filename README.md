@@ -1,4 +1,4 @@
-![Random Image](assets/1.png)
+![Random Image](assets/4.png)
 ## Hi there! 👋
 
 I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Albania. I love blending creativity with technology and am a big fan of Constructivism and Bauhaus.
@@ -13,21 +13,21 @@ I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Al
 🌟 **Private Repos:** 72  
 
 ## Recent Activity
-- Pushed to sibalonat/arpya (1 times) on July 21, 2025
+- Pushed to sibalonat/arpya (3 times) on July 30, 2025
+- Pushed to sibalonat/arpya (4 times) on July 21, 2025
 - Pushed to sibalonat/docbuilder (2 times) on July 19, 2025
 - Pushed to sibalonat/docbuilder (5 times) on July 17, 2025
-- Pushed to sibalonat/arpya (8 times) on July 16, 2025
-- Pushed to sibalonat/arpya (11 times) on July 15, 2025
-- Pushed to sibalonat/arpya (15 times) on July 14, 2025
-- Pushed to sibalonat/arpya (16 times) on July 10, 2025
-- Pushed to sibalonat/arpya (19 times) on July 09, 2025
+- Pushed to sibalonat/arpya (11 times) on July 16, 2025
+- Pushed to sibalonat/arpya (14 times) on July 15, 2025
+- Pushed to sibalonat/arpya (18 times) on July 14, 2025
+- Pushed to sibalonat/arpya (19 times) on July 10, 2025
+- Pushed to sibalonat/arpya (22 times) on July 09, 2025
 - Pushed to sibalonat/docbuilder (6 times) on July 08, 2025
-- Pushed to sibalonat/arpya (20 times) on July 07, 2025
+- Pushed to sibalonat/arpya (23 times) on July 07, 2025
 - Pushed to sibalonat/docbuilder (7 times) on July 06, 2025
 - Pushed to sibalonat/docbuilder (8 times) on July 05, 2025
 - Pushed to sibalonat/docbuilder (9 times) on July 03, 2025
-- Pushed to sibalonat/arpya (22 times) on July 01, 2025
-- Pushed to sibalonat/docbuilder (10 times) on June 29, 2025
+- Pushed to sibalonat/arpya (25 times) on July 01, 2025
 
 
 
