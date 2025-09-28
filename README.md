@@ -9,10 +9,11 @@ I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Al
 
 ## GitHub Stats
 
-🌟 **Public Repos:** 21
+🌟 **Public Repos:** 20
 🌟 **Private Repos:** 72  
 
 ## Recent Activity
+- Created sibalonat/contact-management-app on September 27, 2025
 - Pushed to sibalonat/arpya (1 times) on September 19, 2025
 
 
