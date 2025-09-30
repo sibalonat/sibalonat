@@ -9,7 +9,7 @@ I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Al
 
 ## GitHub Stats
 
-🌟 **Public Repos:** 20
+🌟 **Public Repos:** 19
 🌟 **Private Repos:** 72  
 
 ## Recent Activity
