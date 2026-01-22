@@ -1,4 +1,4 @@
-![Random Image](assets/4.png)
+![Random Image](assets/1.png)
 ## Hi there! 👋
 
 I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Albania. I love blending creativity with technology and am a big fan of Constructivism and Bauhaus.
@@ -13,18 +13,19 @@ I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Al
 🌟 **Private Repos:** 72  
 
 ## Recent Activity
-- Pushed to sibalonat/cares (5 times) on January 20, 2026
-- Pushed to sibalonat/cti (7 times) on January 20, 2026
-- Pushed to sibalonat/cti (15 times) on January 19, 2026
-- Pushed to sibalonat/cares (15 times) on January 18, 2026
-- Pushed to sibalonat/cares (17 times) on January 17, 2026
-- Pushed to sibalonat/cti (21 times) on January 16, 2026
-- Pushed to sibalonat/cti (28 times) on January 15, 2026
+- Pushed to sibalonat/cares (7 times) on January 21, 2026
+- Pushed to sibalonat/cti (1 times) on January 21, 2026
+- Pushed to sibalonat/cares (12 times) on January 20, 2026
+- Pushed to sibalonat/cti (8 times) on January 20, 2026
+- Pushed to sibalonat/cti (16 times) on January 19, 2026
+- Pushed to sibalonat/cares (22 times) on January 18, 2026
+- Pushed to sibalonat/cares (24 times) on January 17, 2026
+- Pushed to sibalonat/cti (22 times) on January 16, 2026
+- Pushed to sibalonat/cti (29 times) on January 15, 2026
 - Pushed to sibalonat/cti (30 times) on January 12, 2026
-- Pushed to sibalonat/cares (18 times) on January 08, 2026
-- Pushed to sibalonat/cares (21 times) on January 07, 2026
-- Pushed to sibalonat/cares (26 times) on January 06, 2026
-- Pushed to sibalonat/cares (30 times) on January 05, 2026
+- Pushed to sibalonat/cares (25 times) on January 08, 2026
+- Pushed to sibalonat/cares (28 times) on January 07, 2026
+- Pushed to sibalonat/cares (30 times) on January 06, 2026
 
 
 
