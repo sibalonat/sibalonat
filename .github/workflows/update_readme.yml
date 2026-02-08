@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs every day at midnight
+    - cron: '0 */12 * * *' # Runs every 12 hours
   workflow_dispatch:
 
 permissions:
@@ -46,7 +46,7 @@ jobs:
           git pull --rebase || git rebase --abort
           git stash pop || true
           git merge -X ours origin/main
-          git add README.md
-          git diff-index --quiet HEAD || git commit -m 'Update README with random image'
+          git add README.md assets/*.png assets/.image_tracker.json
+          git diff-index --quiet HEAD || git commit -m 'Update README and rotate Bauhaus images'
           git push
         working-directory: ${{ github.workspace }}
