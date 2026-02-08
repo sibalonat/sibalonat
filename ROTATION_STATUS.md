@@ -7,22 +7,26 @@ Your images are now in the **assets/** folder and will automatically rotate ever
 ## 📸 Current Images
 
 Run this to check current images:
+
 ```bash
 python -c "from image_tracker import get_current_images, get_time_remaining; print('Current:', get_current_images()); print('Next rotation:', get_time_remaining())"
 ```
 
 Current files in assets:
+
 - `balloon_20260208_231744_1.png` (rectangle-based balloon)
 - `balloon_20260208_231744_2.png` (rectangle-based balloon)
 
 ## 🔄 How Rotation Works
 
 ### Automatic (Every 2 Days):
+
 ```bash
 python update_readme.py
 ```
 
 **What happens:**
+
 1. ✅ Checks if 2 days have passed
 2. ✅ If yes: **Deletes old images**
 3. ✅ **Generates 2 NEW images** with:
@@ -35,6 +39,7 @@ python update_readme.py
 5. ✅ Updates README with stats and random image
 
 ### Manual (For Testing):
+
 ```bash
 python force_regenerate.py
 ```
@@ -44,11 +49,13 @@ Forces immediate regeneration (bypasses 2-day wait)
 ## 🎯 Design Variations
 
 ### Balloon Theme (3 Random Styles):
+
 1. **Composed**: Symmetric rectangles forming oval
 2. **Stacked**: Horizontal bars (30→50→60→60→50→30)
 3. **Grid**: Small rectangles in grid pattern
 
 ### mn+ Signature (3 Random Styles):
+
 1. **Solid**: Bold letter forms
 2. **Stacked**: Horizontal striped letters
 3. **Outlined**: Double-line architectural style
@@ -58,9 +65,11 @@ Forces immediate regeneration (bypasses 2-day wait)
 ## 📁 File Management
 
 **Tracked images** (kept):
+
 - Current 2 images listed in `assets/.image_tracker.json`
 
 **Untracked images** (deleted):
+
 - Anything else gets cleaned up automatically
 
 ## 🚀 Next Steps
@@ -72,6 +81,7 @@ Forces immediate regeneration (bypasses 2-day wait)
    - Images regenerate only when 2 days pass
 
 2. **Test locally**:
+
    ```bash
    export GITHUB_TOKEN=your_token
    python update_readme.py
@@ -95,14 +105,14 @@ Forces immediate regeneration (bypasses 2-day wait)
 
 ## 📊 Files in This System
 
-| File | Purpose |
-|------|---------|
-| `bauhaus_generator.py` | Generates rectangle-based Bauhaus images |
-| `image_tracker.py` | Manages 2-day rotation & cleanup |
-| `update_readme.py` | Main script (updates README + generates) |
-| `force_regenerate.py` | Manual regeneration for testing |
-| `assets/.image_tracker.json` | Tracks current images & timestamp |
-| `assets/*.png` | Current active images (2 files) |
+| File                         | Purpose                                  |
+| ---------------------------- | ---------------------------------------- |
+| `bauhaus_generator.py`       | Generates rectangle-based Bauhaus images |
+| `image_tracker.py`           | Manages 2-day rotation & cleanup         |
+| `update_readme.py`           | Main script (updates README + generates) |
+| `force_regenerate.py`        | Manual regeneration for testing          |
+| `assets/.image_tracker.json` | Tracks current images & timestamp        |
+| `assets/*.png`               | Current active images (2 files)          |
 
 ---
 
