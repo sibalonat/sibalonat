@@ -115,39 +115,47 @@ for repo in repos:
     repo_events = events_response.json()
     events.extend(repo_events)
 
-# Sort events by creation date in descending order
-events.sort(key=lambda event: event['created_at'], reverse=True)
+# Calculate date 4 days ago from today
+from datetime import timedelta
+today = datetime.now()
+four_days_ago = today - timedelta(days=4)
 
-# Filter push and create events and count multiple pushes to the same project
-recent_activity = []
-event_counter = {}
+# Filter events from the last 4 days and aggregate by repo and date
+activity_counter = {}
 for event in events:
     if event['type'] in ['PushEvent', 'CreateEvent']:
+        event_date_obj = datetime.strptime(event['created_at'], '%Y-%m-%dT%H:%M:%SZ')
+        
+        # Skip if older than 4 days
+        if event_date_obj < four_days_ago:
+            continue
+        
         repo_name = event['repo']['name']
-        event_type = 'Pushed to' if event['type'] == 'PushEvent' else 'Created'
-        event_date = datetime.strptime(event['created_at'], '%Y-%m-%dT%H:%M:%SZ').strftime('%B %d, %Y')
+        event_date = event_date_obj.strftime('%B %d, %Y')
+        key = f"{repo_name}|{event_date}"
         
         if event['type'] == 'PushEvent':
-            if repo_name in event_counter:
-                event_counter[repo_name] += 1
-            else:
-                event_counter[repo_name] = 1
-            event_text = f'- {event_type} {repo_name} ({event_counter[repo_name]} times) on {event_date}'
+            if key not in activity_counter:
+                activity_counter[key] = {'type': 'Pushed to', 'count': 0, 'repo': repo_name, 'date': event_date}
+            activity_counter[key]['count'] += 1
         else:
-            event_text = f'- {event_type} {repo_name} on {event_date}'
-        
-        if event['repo'].get('private'):
-            event_text = event_text.replace(f'[{repo_name}](https://github.com/{repo_name})', repo_name)
-        
-        # Check if the event already exists in recent_activity
-        existing_event = next((activity for activity in recent_activity if repo_name in activity and event_date in activity), None)
-        if existing_event:
-            recent_activity[recent_activity.index(existing_event)] = event_text
-        else:
-            recent_activity.append(event_text)
-        
-    if len(recent_activity) >= 20:
-        break
+            # For CreateEvent, just add it once
+            if key not in activity_counter:
+                activity_counter[key] = {'type': 'Created', 'count': 1, 'repo': repo_name, 'date': event_date}
+
+# Sort by count (most active first) and take top 4
+sorted_activities = sorted(activity_counter.values(), key=lambda x: x['count'], reverse=True)[:4]
+
+# Format the activity list
+recent_activity = []
+for activity in sorted_activities:
+    if activity['type'] == 'Pushed to' and activity['count'] > 1:
+        event_text = f"- {activity['type']} {activity['repo']} ({activity['count']} times) on {activity['date']}"
+    elif activity['type'] == 'Pushed to':
+        event_text = f"- {activity['type']} {activity['repo']} on {activity['date']}"
+    else:
+        event_text = f"- {activity['type']} {activity['repo']} on {activity['date']}"
+    recent_activity.append(event_text)
 
 # Read the current README.md content
 with open(readme_file, 'r') as file:
@@ -163,9 +171,14 @@ for i, line in enumerate(readme_content):
         readme_content[i] = f'🔒 **Private Repos:** {private_repos_count}\n'
     if line.startswith('## Recent Activity'):
         recent_activity_start = i + 1
-        while readme_content[recent_activity_start].startswith('- '):
+        # Remove existing activity lines
+        while recent_activity_start < len(readme_content) and readme_content[recent_activity_start].startswith('- '):
             readme_content.pop(recent_activity_start)
-        for activity in recent_activity[:20]:  # Limit to 20 rows
+        # Also remove any blank lines after activity until we hit the next section
+        while recent_activity_start < len(readme_content) and readme_content[recent_activity_start].strip() == '':
+            readme_content.pop(recent_activity_start)
+        # Insert new activity lines
+        for activity in recent_activity:
             readme_content.insert(recent_activity_start, activity + '\n')
             recent_activity_start += 1
         break
