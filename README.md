@@ -14,39 +14,11 @@ I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Al
 🔒 **Private Repos:** 55
 
 ## Recent Activity
-- Pushed to sibalonat/sibalonat (4 times) on February 08, 2026
-- Created sibalonat/softwarehouse on February 08, 2026
-- Created sibalonat/lartar on February 08, 2026
-- Pushed to sibalonat/cti (3 times) on February 07, 2026
-- Pushed to sibalonat/sibalonat (5 times) on February 07, 2026
-- Pushed to sibalonat/cares (5 times) on February 06, 2026
-- Pushed to sibalonat/cti (12 times) on February 06, 2026
-- Pushed to sibalonat/sibalonat (6 times) on February 06, 2026
-- Pushed to sibalonat/cares (15 times) on February 05, 2026
-- Pushed to sibalonat/cti (13 times) on February 05, 2026
-- Pushed to sibalonat/sibalonat (7 times) on February 05, 2026
-- Pushed to sibalonat/cares (17 times) on February 04, 2026
-- Pushed to sibalonat/sibalonat (8 times) on February 04, 2026
-- Pushed to sibalonat/cares (20 times) on February 03, 2026
-- Pushed to sibalonat/mnplus (3 times) on February 03, 2026
-- Pushed to sibalonat/sibalonat (9 times) on February 03, 2026
-- Created sibalonat/lartar on February 02, 2026
-- Pushed to sibalonat/cti (14 times) on February 02, 2026
-- Pushed to sibalonat/sibalonat (10 times) on February 02, 2026
-- Pushed to sibalonat/cti (15 times) on February 01, 2026
 
-- Pushed to sibalonat/cti (3 times) on February 07, 2026
-- Pushed to sibalonat/cares (5 times) on February 06, 2026
-- Pushed to sibalonat/cti (12 times) on February 06, 2026
-- Pushed to sibalonat/cares (15 times) on February 05, 2026
-- Pushed to sibalonat/cti (13 times) on February 05, 2026
-- Pushed to sibalonat/cares (17 times) on February 04, 2026
-- Pushed to sibalonat/cares (20 times) on February 03, 2026
-- Pushed to sibalonat/cti (14 times) on February 02, 2026
-- Pushed to sibalonat/cti (25 times) on February 01, 2026
-- Pushed to sibalonat/cares (27 times) on February 01, 2026
-- Pushed to sibalonat/cti (30 times) on January 31, 2026
-- Pushed to sibalonat/cares (30 times) on January 31, 2026
+- Pushed to sibalonat/cti (28 times) on February 05-07, 2026
+- Pushed to sibalonat/sibalonat (22 times) on February 05-08, 2026
+- Pushed to sibalonat/cares (20 times) on February 05-06, 2026
+- Created sibalonat/softwarehouse on February 08, 2026
 
 ## Certifications
 
