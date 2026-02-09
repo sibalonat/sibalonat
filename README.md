@@ -14,6 +14,7 @@ I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Al
 🔒 **Private Repos:** 55
 
 ## Recent Activity
+
 - Pushed to sibalonat/cares (10 times) on February 05, 2026
 - Pushed to sibalonat/cti (9 times) on February 06, 2026
 - Pushed to sibalonat/cares (5 times) on February 06, 2026
@@ -30,3 +31,4 @@ I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Al
 - [Develop Generative AI Applications: Get Started](https://www.coursera.org/account/accomplishments/verify/LZJGU5D2PMXD?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course) - Online Course offered by COURSERA and authorized by IBM
 - [Build RAG Application: Get Started](https://coursera.org/share/0e0e7cc253a9cbcb9643f490762107b6) - Online Course offered by COURSERA and authorized by IBM
 - [Vector Databases for RAG: An Introduction](https://www.coursera.org/account/accomplishments/certificate/W1IVVA36A7P6) - Online Course offered by COURSERA and authorized by IBM
+- [ISO 27701 - Data Protection and Privacy Information Management](https://alison.com/verify/45850bb1ec) - Online Course offered by Alison
