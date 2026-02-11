@@ -17,7 +17,7 @@ I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Al
 - Pushed to sibalonat/cares (9 times) on February 09, 2026
 - Pushed to sibalonat/sibalonat (5 times) on February 09, 2026
 - Pushed to sibalonat/sibalonat (4 times) on February 08, 2026
-- Pushed to sibalonat/cti (3 times) on February 07, 2026
+- Pushed to sibalonat/sibalonat (2 times) on February 10, 2026
 ## Certifications
 
 - [CS50's Web Programming with
