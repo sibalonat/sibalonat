@@ -1,13 +1,6 @@
 {
-  "last_generated": "2026-02-13T12:19:21.349956",
-  "images": [
-    {
-      "filename": "balloon_20260213_121921_1.png",
-      "theme": "balloon"
-    },
-    {
-      "filename": "mnpluss_20260213_121921_2.png",
-      "theme": "mnpluss"
-    }
-  ]
+  "last_generated": "2026-02-15T21:02:30.890051",
+  "last_hour": 21,
+  "day_seed": 46,
+  "current_image": "triadic_20260215_210230_h21.png"
 }
