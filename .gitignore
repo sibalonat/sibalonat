@@ -1,0 +1,6 @@
+test_frames/
+test_images/
+test_balloon.png
+test_mnpluss.png
+__pycache__/
+*.pyc
