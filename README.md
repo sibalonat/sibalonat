@@ -1,4 +1,4 @@
-![Random Image](assets/triadic_20260303_001227_h00.png)
+![Random Image](assets/triadic_20260303_013240_h01.png)
 
 ## Hi there! 👋
 
