@@ -1,4 +1,4 @@
-![Random Image](assets/triadic_20260322_190737_h19.png)
+![Random Image](assets/triadic_20260322_200247_h20.png)
 
 ## Hi there! 👋
 
@@ -11,11 +11,11 @@ I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Al
 ## GitHub Stats
 
 🌟 **Public Repos:** 80
-🔒 **Private Repos:** 56
+🔒 **Private Repos:** 57
 
 ## Recent Activity
-- Pushed to sibalonat/sibalonat (18 times) on March 22, 2026
-- Pushed to sibalonat/sibalonat (12 times) on March 21, 2026
+- Pushed to sibalonat/sibalonat (19 times) on March 22, 2026
+- Pushed to sibalonat/sibalonat (11 times) on March 21, 2026
 - Pushed to sibalonat/po_agent_platform (5 times) on March 22, 2026
 - Pushed to sibalonat/po_agent_platform (5 times) on March 21, 2026
 ## Certifications
