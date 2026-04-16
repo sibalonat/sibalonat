@@ -1,4 +1,4 @@
-![Random Image](assets/triadic_20260416_045848_h04.png)
+![Random Image](assets/triadic_20260416_054849_h05.png)
 
 ## Hi there! 👋
 
@@ -16,8 +16,8 @@ I'm Marin Nikolli, a passionate Fullstack Developer and Designer from Tirana, Al
 ## Recent Activity
 - Pushed to sibalonat/sibalonat (23 times) on April 15, 2026
 - Pushed to sibalonat/cares (4 times) on April 13, 2026
-- Pushed to sibalonat/sibalonat (4 times) on April 14, 2026
-- Pushed to sibalonat/sibalonat (3 times) on April 16, 2026
+- Pushed to sibalonat/sibalonat (4 times) on April 16, 2026
+- Pushed to sibalonat/sibalonat (3 times) on April 14, 2026
 ## Certifications
 
 - [CS50's Web Programming with
