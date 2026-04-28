@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 * * * *" # Runs every hour (Triadic Balloon frame update)
+    - cron: "0 9 * * 1" # Runs weekly on Mondays at 09:00 UTC
   workflow_dispatch:
 
 permissions:
